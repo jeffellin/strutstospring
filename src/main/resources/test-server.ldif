@@ -52,9 +52,9 @@ objectclass: inetOrgPerson
 cn: Bob Hamilton
 sn: Hamilton
 uid: bob
-userPassword: $2a$10$c6bSeWPhg06xB1lvmaWNNe4NROmZiSpYhlocU/98HNr2MhIOiSt36
+userPassword: bobspassword
 
-dn: uid=joe,ou=people,dc=springframework,dc=org
+dn: uid=joe,ou=otherpeople,dc=springframework,dc=org
 objectclass: top
 objectclass: person
 objectclass: organizationalPerson
@@ -121,7 +121,6 @@ cn: managers
 ou: manager
 uniqueMember: uid=ben,ou=people,dc=springframework,dc=org
 uniqueMember: cn=mouse\, jerry,ou=people,dc=springframework,dc=org
-uniqueMember: uid=joe,ou=people,dc=springframework,dc=org
 
 dn: cn=submanagers,ou=subgroups,ou=groups,dc=springframework,dc=org
 objectclass: top

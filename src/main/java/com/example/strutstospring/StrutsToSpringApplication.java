@@ -42,7 +42,7 @@ public class StrutsToSpringApplication {
 		return bean;
 	}
 
-	@Bean
+	/*@Bean
 	ApplicationRunner applicationRunner(LdapTemplate ldapTemplate) {
 		return args -> {
 			List<String> cn = ldapTemplate
@@ -65,22 +65,22 @@ public class StrutsToSpringApplication {
 			System.out.println(cn2);
 
 		};
-	}
+	}*/
 
-	@Bean
+/*	@Bean
 	public LdapContextSource contextSource() {
 		LdapContextSource contextSource = new LdapContextSource();
 
 		contextSource.setUrl("ldap://localhost:8389");
 
 		return contextSource;
-	}
+	}*/
 
-	@Bean
+	/*@Bean
 	public LdapTemplate ldapTemplate() {
 		return new LdapTemplate(contextSource());
 	}
-
+*/
 	@Bean
 	public ServletWebServerFactory webServerFactory() {
 		TomcatServletWebServerFactory factory = new TomcatServletWebServerFactory(){
