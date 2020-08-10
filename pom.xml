@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>struts-to-spring</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 
 	<name>struts-to-spring</name>
 	<packaging>war</packaging>
@@ -23,7 +23,8 @@
    		<connection>scm:git:ssh://git@github.com:jeffellin/strutstospring.git</connection>
    		<url>github.com/jeffellin/strutstospring.git</url>
    		<developerConnection>scm:git:ssh://git@github.com:jeffellin/strutstospring.git</developerConnection>
-	</scm>
+	  <tag>struts-to-spring-0.0.1</tag>
+  </scm>
 
 	<dependencies>
 		<dependency>
