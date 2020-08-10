@@ -20,9 +20,9 @@
 	</properties>
 
 	<scm>
-   		<connection>scm:git:ssh://git@github.com:jeffellin/strutstospring.git</connection>
+   		<connection>scm:git:ssh://git@github.com/jeffellin/strutstospring.git</connection>
    		<url>github.com/jeffellin/strutstospring.git</url>
-   		<developerConnection>scm:git:ssh://git@github.com:jeffellin/strutstospring.git</developerConnection>
+   		<developerConnection>scm:git:ssh://git@github.com/jeffellin/strutstospring.git</developerConnection>
 	  <tag>struts-to-spring-0.0.1</tag>
   </scm>
 
