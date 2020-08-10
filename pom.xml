@@ -21,7 +21,7 @@
 
 	<scm>
    		<connection>scm:git:ssh://git@github.com:jeffellin/strutstospring.git</connection>
-   		<url>github.com/jeffellin/strutstospring.git</url>
+   		<url>scm:git:ssh://git@github.com:jeffellin/strutstospring.git</url>
    		<developerConnection>scm:git:ssh://git@github.com:jeffellin/strutstospring.git</developerConnection>
 	</scm>
 
